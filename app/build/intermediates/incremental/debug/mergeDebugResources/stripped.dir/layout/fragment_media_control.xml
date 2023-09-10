@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.MediaControlFragment">
+
+    <Button
+        android:id="@+id/playPause"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="@android:drawable/ic_media_play"
+        android:onClick="musicplay" />
+
+    <Button
+        android:id="@+id/repeat"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_toEndOf="@id/playPause" />
+
+
+</FrameLayout>

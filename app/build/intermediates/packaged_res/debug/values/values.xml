@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">#FF000000</color>
+    <color name="colorOnSecondary">#FFFFFFFF</color>
+    <color name="colorPrimary">#008500</color>
+    <color name="colorPrimaryVariant">#005100</color>
+    <color name="colorSecondary">#BCBCBC</color>
+    <color name="colorSecondaryVariant">#515151</color>
+    <color name="text">#FF00FF00</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="app_name">Tag Organizer</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="iconDescription">TODO</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_selection">SelectionActivity</string>
+    <string name="title_activity_tag">TagActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme.TagOrganizer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/background</item>
+        
+        <item name="colorSecondary">@color/background</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">#000000</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

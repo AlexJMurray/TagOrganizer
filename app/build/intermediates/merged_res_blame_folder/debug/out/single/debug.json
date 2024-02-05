@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_media_shuffle.xml.flat",
+        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\media_shuffle.xml"
+    },
+    {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\layout_fragment_searchbar.xml.flat",
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\fragment_searchbar.xml"
     },
@@ -48,6 +52,18 @@
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_media_play.xml.flat",
+        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\media_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_media_repeat.xml.flat",
+        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\media_repeat.xml"
+    },
+    {
+        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_media_bookmark.xml.flat",
+        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\media_bookmark.xml"
+    },
+    {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -60,20 +76,20 @@
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\folder_arrow_open.xml"
     },
     {
-        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_folder_arrow_closed.xml.flat",
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\folder_arrow_closed.xml"
+    },
+    {
+        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\layout_activity_file_list.xml.flat",
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\activity_file_list.xml"
     },
     {
-        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_baseline_play_arrow_72.xml.flat",
-        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\baseline_play_arrow_72.xml"
+        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_media_skip.xml.flat",
+        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\media_skip.xml"
     },
     {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_ic_launcher_background.xml.flat",
@@ -98,6 +114,10 @@
     {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable_media_next.xml.flat",
+        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\drawable\\media_next.xml"
     },
     {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\layout_adapter_directory_item.xml.flat",

@@ -4,21 +4,21 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
-<FrameLayout
+    <FrameLayout
         android:id="@+id/searchbar_container"
         android:layout_width="match_parent"
         android:layout_height="72dp" />
 
-<FrameLayout
-    android:id="@+id/media_control_container"
-    android:layout_width="match_parent"
-    android:layout_height="72dp"
-    android:layout_alignParentBottom="true"/>
+    <FrameLayout
+        android:id="@+id/file_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="72dp"/>
 
-<FrameLayout
-    android:id="@+id/file_list_container"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="72dp"/>
+    <FrameLayout
+        android:id="@+id/media_control_container"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

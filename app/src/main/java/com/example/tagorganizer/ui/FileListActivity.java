@@ -37,7 +37,10 @@ public class FileListActivity extends AppCompatActivity {
         }
 
         if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction().add(R.id.searchbar_container, new SearchbarFragment()).commit();
             getSupportFragmentManager().beginTransaction().add(R.id.file_list_container, new FileListFragment()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.media_control_container, new MediaControlFragment()).commit();
+
         }
     }
     private boolean checkPermission(){

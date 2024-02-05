@@ -2751,7 +2751,6 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
-drawable baseline_play_arrow_72
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2802,6 +2801,12 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable media_bookmark
+drawable media_next
+drawable media_play
+drawable media_repeat
+drawable media_shuffle
+drawable media_skip
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -2943,12 +2948,14 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bookmark
 id bottom
 id bounce
 id bounceBoth
@@ -3171,6 +3178,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id next
 id noScroll
 id noState
 id nofiles_textview
@@ -3261,8 +3269,11 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id shuffle
 id sin
+id skipBack
 id skipCollapsed
+id skipForward
 id skipped
 id slide
 id sliding_pane_detail_container

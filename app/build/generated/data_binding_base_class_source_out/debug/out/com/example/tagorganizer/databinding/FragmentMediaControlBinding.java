@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -17,7 +17,16 @@ import java.lang.String;
 
 public final class FragmentMediaControlBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final RelativeLayout rootView;
+
+  @NonNull
+  public final Button back;
+
+  @NonNull
+  public final Button bookmark;
+
+  @NonNull
+  public final Button next;
 
   @NonNull
   public final Button playPause;
@@ -25,16 +34,33 @@ public final class FragmentMediaControlBinding implements ViewBinding {
   @NonNull
   public final Button repeat;
 
-  private FragmentMediaControlBinding(@NonNull FrameLayout rootView, @NonNull Button playPause,
-      @NonNull Button repeat) {
+  @NonNull
+  public final Button shuffle;
+
+  @NonNull
+  public final Button skipBack;
+
+  @NonNull
+  public final Button skipForward;
+
+  private FragmentMediaControlBinding(@NonNull RelativeLayout rootView, @NonNull Button back,
+      @NonNull Button bookmark, @NonNull Button next, @NonNull Button playPause,
+      @NonNull Button repeat, @NonNull Button shuffle, @NonNull Button skipBack,
+      @NonNull Button skipForward) {
     this.rootView = rootView;
+    this.back = back;
+    this.bookmark = bookmark;
+    this.next = next;
     this.playPause = playPause;
     this.repeat = repeat;
+    this.shuffle = shuffle;
+    this.skipBack = skipBack;
+    this.skipForward = skipForward;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -59,6 +85,24 @@ public final class FragmentMediaControlBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.back;
+      Button back = ViewBindings.findChildViewById(rootView, id);
+      if (back == null) {
+        break missingId;
+      }
+
+      id = R.id.bookmark;
+      Button bookmark = ViewBindings.findChildViewById(rootView, id);
+      if (bookmark == null) {
+        break missingId;
+      }
+
+      id = R.id.next;
+      Button next = ViewBindings.findChildViewById(rootView, id);
+      if (next == null) {
+        break missingId;
+      }
+
       id = R.id.playPause;
       Button playPause = ViewBindings.findChildViewById(rootView, id);
       if (playPause == null) {
@@ -71,7 +115,26 @@ public final class FragmentMediaControlBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMediaControlBinding((FrameLayout) rootView, playPause, repeat);
+      id = R.id.shuffle;
+      Button shuffle = ViewBindings.findChildViewById(rootView, id);
+      if (shuffle == null) {
+        break missingId;
+      }
+
+      id = R.id.skipBack;
+      Button skipBack = ViewBindings.findChildViewById(rootView, id);
+      if (skipBack == null) {
+        break missingId;
+      }
+
+      id = R.id.skipForward;
+      Button skipForward = ViewBindings.findChildViewById(rootView, id);
+      if (skipForward == null) {
+        break missingId;
+      }
+
+      return new FragmentMediaControlBinding((RelativeLayout) rootView, back, bookmark, next,
+          playPause, repeat, shuffle, skipBack, skipForward);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

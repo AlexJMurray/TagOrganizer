@@ -10,25 +10,32 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.widget.Toast;
 
-import com.example.tagorganizer.ui.FileListActivity;
-import com.google.android.material.button.MaterialButton;
+import com.example.tagorganizer.ui.SearchbarFragment;
+import com.example.tagorganizer.ui.FileListFragment;
+import com.example.tagorganizer.ui.MediaControlFragment;
 
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MaterialButton storageBtn = findViewById(R.id.storage_btn);
 
         if(checkPermission()){
             //permission allowed
-            Intent intent = new Intent(MainActivity.this, FileListActivity.class);
+            Intent intent = new Intent(MainActivity.this, MainActivity.class);
             String path = Environment.getExternalStorageDirectory().getPath();
             intent.putExtra("path",path);
             startActivity(intent);
         }else{
             //permission not allowed
             requestPermission();
+        }
+
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction().add(R.id.searchbar_container, new SearchbarFragment()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.file_list_container, new FileListFragment()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.media_control_container, new MediaControlFragment()).commit();
+
         }
     }
     private boolean checkPermission(){

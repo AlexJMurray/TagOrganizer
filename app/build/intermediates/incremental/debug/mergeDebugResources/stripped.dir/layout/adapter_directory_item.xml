@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@color/background"
+    android:layout_height="wrap_content">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/folder_arrow_closed"/>
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        tools:src="@drawable/folder_arrow_closed"
+        android:layout_toEndOf="@id/toggleButton"
+        android:id="@+id/icon_view"
+        android:contentDescription="@string/iconDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/file_name_text_view"
+        android:layout_toEndOf="@id/icon_view"
+        android:textSize="24sp"
+        android:padding="2dp"
+        android:textColor="@color/text"
+        tools:text="Documents"/>
+
+    <include
+        layout="@layout/fragment_file_list"
+        android:id="@+id/subDirectoryComponent"
+        android:layout_marginStart="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/file_name_text_view"/>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:layout_marginTop="2dp"
+       android:background="@color/colorPrimary"
+       android:layout_below="@id/subDirectoryComponent"/>
+
+
+
+</RelativeLayout>

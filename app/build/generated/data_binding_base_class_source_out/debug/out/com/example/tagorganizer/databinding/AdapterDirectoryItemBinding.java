@@ -28,14 +28,14 @@ public final class AdapterDirectoryItemBinding implements ViewBinding {
   public final ImageView iconView;
 
   @NonNull
-  public final ActivityFileListBinding subDirectoryComponent;
+  public final FragmentFileListBinding subDirectoryComponent;
 
   @NonNull
   public final ToggleButton toggleButton;
 
   private AdapterDirectoryItemBinding(@NonNull RelativeLayout rootView,
       @NonNull TextView fileNameTextView, @NonNull ImageView iconView,
-      @NonNull ActivityFileListBinding subDirectoryComponent, @NonNull ToggleButton toggleButton) {
+      @NonNull FragmentFileListBinding subDirectoryComponent, @NonNull ToggleButton toggleButton) {
     this.rootView = rootView;
     this.fileNameTextView = fileNameTextView;
     this.iconView = iconView;
@@ -87,7 +87,7 @@ public final class AdapterDirectoryItemBinding implements ViewBinding {
       if (subDirectoryComponent == null) {
         break missingId;
       }
-      ActivityFileListBinding binding_subDirectoryComponent = ActivityFileListBinding.bind(subDirectoryComponent);
+      FragmentFileListBinding binding_subDirectoryComponent = FragmentFileListBinding.bind(subDirectoryComponent);
 
       id = R.id.toggleButton;
       ToggleButton toggleButton = ViewBindings.findChildViewById(rootView, id);

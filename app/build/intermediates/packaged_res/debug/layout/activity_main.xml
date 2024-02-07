@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".MainActivity">
+    android:background="@color/background">
 
-    <com.google.android.material.button.MaterialButton
+    <FrameLayout
+        android:id="@+id/searchbar_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/storage_btn"
-        android:padding="8dp"
-        android:layout_margin="16dp"
-        android:layout_centerInParent="true"/>
+        android:layout_height="72dp" />
 
+    <FrameLayout
+        android:id="@+id/file_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="72dp"/>
 
+    <FrameLayout
+        android:id="@+id/media_control_container"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

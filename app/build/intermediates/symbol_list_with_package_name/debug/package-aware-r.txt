@@ -3302,7 +3302,6 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stop
-id storage_btn
 id stretch
 id subDirectoryComponent
 id submenuarrow
@@ -3485,7 +3484,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_file_list
 layout activity_main
 layout adapter_directory_item
 layout custom_dialog

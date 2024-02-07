@@ -33,7 +33,7 @@
         tools:text="Documents"/>
 
     <include
-        layout="@layout/activity_file_list"
+        layout="@layout/fragment_file_list"
         android:id="@+id/subDirectoryComponent"
         android:layout_marginStart="36dp"
         android:layout_width="match_parent"

@@ -35,10 +35,8 @@ id searchbar_container
 id shuffle
 id skipBack
 id skipForward
-id storage_btn
 id subDirectoryComponent
 id toggleButton
-layout activity_file_list
 layout activity_main
 layout adapter_directory_item
 layout fragment_file_list

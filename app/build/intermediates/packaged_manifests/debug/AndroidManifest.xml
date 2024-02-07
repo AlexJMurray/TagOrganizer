@@ -29,7 +29,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.TagOrganizer" >
-        <activity android:name="com.example.tagorganizer.ui.FileListActivity" />
         <activity
             android:name="com.example.tagorganizer.MainActivity"
             android:exported="true" >

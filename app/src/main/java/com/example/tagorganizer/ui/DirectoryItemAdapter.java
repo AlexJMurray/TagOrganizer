@@ -17,6 +17,7 @@ import android.widget.ToggleButton;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.tagorganizer.MainActivity;
 import com.example.tagorganizer.R;
 
 import java.io.File;
@@ -49,7 +50,7 @@ public class DirectoryItemAdapter extends RecyclerView.Adapter<DirectoryItemAdap
                 holder.toggleButton.setBackgroundResource(R.drawable.folder_arrow_open);
                 holder.subDirectory.setVisibility(View.VISIBLE);
 
-                holder.subDirectory = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout.activity_file_list, null);
+                holder.subDirectory = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout.activity_main, null);
 // Access the RecyclerView and TextView in the RelativeLayout
                 RecyclerView recyclerView = holder.subDirectory.findViewById(R.id.recycler_view);
                 TextView noFilesText = holder.subDirectory.findViewById(R.id.nofiles_textview);
@@ -91,7 +92,7 @@ public class DirectoryItemAdapter extends RecyclerView.Adapter<DirectoryItemAdap
             @Override
             public void onClick(View v) {
                 if(selectedFile.isDirectory()){
-                    Intent intent = new Intent(context, FileListActivity.class);
+                    Intent intent = new Intent(context, MainActivity.class);
                     String path = selectedFile.getAbsolutePath();
                     intent.putExtra("path",path);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

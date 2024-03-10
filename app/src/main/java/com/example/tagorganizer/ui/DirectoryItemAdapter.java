@@ -51,7 +51,7 @@ public class DirectoryItemAdapter extends RecyclerView.Adapter<DirectoryItemAdap
                 holder.subDirectory.setVisibility(View.VISIBLE);
 
                 holder.subDirectory = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout.activity_main, null);
-// Access the RecyclerView and TextView in the RelativeLayout
+                // Access the RecyclerView and TextView in the RelativeLayout
                 RecyclerView recyclerView = holder.subDirectory.findViewById(R.id.recycler_view);
                 TextView noFilesText = holder.subDirectory.findViewById(R.id.nofiles_textview);
 // Retrieve the path from the selected file

@@ -8,10 +8,6 @@
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\fragment_searchbar.xml"
     },
     {
-        "merged": "com.example.tagorganizer.app-merged_res-43:/layout_activity_main.xml.flat",
-        "source": "com.example.tagorganizer.app-main-45:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\activity_main.xml"
     },
@@ -46,10 +42,6 @@
     {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.tagorganizer.app-merged_res-43:/layout_adapter_directory_item.xml.flat",
-        "source": "com.example.tagorganizer.app-main-45:/layout/adapter_directory_item.xml"
     },
     {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-merged_res-43:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

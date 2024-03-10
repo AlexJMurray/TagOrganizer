@@ -8,14 +8,6 @@
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\fragment_file_list.xml"
     },
     {
-        "merged": "com.example.tagorganizer.app-mergeDebugResources-42:/layout/adapter_directory_item.xml",
-        "source": "com.example.tagorganizer.app-main-45:/layout/adapter_directory_item.xml"
-    },
-    {
-        "merged": "com.example.tagorganizer.app-mergeDebugResources-42:/layout/activity_main.xml",
-        "source": "com.example.tagorganizer.app-main-45:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.example.tagorganizer.app-mergeDebugResources-42:/layout/fragment_file_list.xml",
         "source": "com.example.tagorganizer.app-main-45:/layout/fragment_file_list.xml"
     },
@@ -24,12 +16,12 @@
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\activity_file_list.xml"
     },
     {
-        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-mergeDebugResources-42:\\layout\\fragment_media_control.xml",
-        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\fragment_media_control.xml"
-    },
-    {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-mergeDebugResources-42:\\layout\\activity_main.xml",
         "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-mergeDebugResources-42:\\layout\\fragment_media_control.xml",
+        "source": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-main-45:\\layout\\fragment_media_control.xml"
     },
     {
         "merged": "C:\\Users\\rache\\.gradle\\daemon\\7.5\\com.example.tagorganizer.app-mergeDebugResources-42:\\layout\\adapter_directory_item.xml",

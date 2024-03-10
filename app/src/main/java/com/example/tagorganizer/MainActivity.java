@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         if(checkPermission()){
             //permission allowed
-            Intent intent = new Intent(MainActivity.this, MainActivity.class);
             String path = Environment.getExternalStorageDirectory().getPath();
-            intent.putExtra("path",path);
-            startActivity(intent);
+            FileListFragment filelistfragment = FileListFragment.newInstance(path);
+            getSupportFragmentManager().beginTransaction().add(R.id.file_list_container, new FileListFragment()).commit();
+
         }else{
             //permission not allowed
             requestPermission();
@@ -33,11 +33,10 @@ public class MainActivity extends AppCompatActivity {
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().add(R.id.searchbar_container, new SearchbarFragment()).commit();
-            getSupportFragmentManager().beginTransaction().add(R.id.file_list_container, new FileListFragment()).commit();
             getSupportFragmentManager().beginTransaction().add(R.id.media_control_container, new MediaControlFragment()).commit();
-
         }
     }
+
     private boolean checkPermission(){
         int result = ContextCompat.checkSelfPermission(MainActivity.this,Manifest.permission.WRITE_EXTERNAL_STORAGE);
         return result == PackageManager.PERMISSION_GRANTED;
